@@ -1,55 +1,58 @@
 * {
-    box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
     color: #3c1053;
-    ;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-body {
-    margin: 0 auto;
+body{
+    margin: 0rem;
 }
 
+main {
+   /**
+    background-repeat: no-repeat; **/
+   text-align: center;
+}
 
+#form{
+    text-align: center;
+}
 
 h1 {
     font-size: 2.5rem;
-    padding: 1rem 0 0rem;
+
     text-align: center;
 }
 
 
 
 .label {
-    display: block;
-    padding: 1rem 0 0.5rem;
+    text-align: center;
     font-weight: bold;
-    font-size: 1.5rem;
-
+    font-size: larger;
 }
 
 
 input {
     display: block;
     margin: auto;
-    height: 50px;
+    height: 30px;
     width: 210px;
     font-size: 1rem;
     border: 1px solid;
     border-radius: 10px;
     padding: 0.5rem;
     background-color: white;
-
 }
 
 button {
-
+    display: block;
     margin: 2rem auto;
     padding: 1rem 2rem;
-    border: 1px solid;
+    border: none;
     font-size: 1.5rem;
     font-weight: bold;
     border-radius: 1.5rem;
@@ -60,20 +63,59 @@ button {
 }
 
 button:hover {
-
     transform: scale(1.2);
 }
 
+.label .label-num{
+    padding-top: 5rem;
 
-.image {
-    border-radius: 20px;
 }
 
-.table {
-    width: 100%;
-}
-
-th {
-    align-items: center;
+p{
     text-align: center;
+    font-weight: bold;
+    max-width: 500px;
+    margin:auto;
+    padding:1rem 0.5rem;
+    border-radius: 10px;
+    background-color: red;
+    justify-content: center;
+    color:white;
+}
+
+.footer{
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+    font-size: larger;
+    background-color: #D1D5DB;
+    max-width:500px;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    
+}
+.footer-header{
+    font-weight: bold;
+
+}
+
+.list-non-bullet{
+    list-style: none;
+    padding-inline-start: 0px;
+
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 1rem;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+.output{
+    padding-bottom: 1rem;
 }

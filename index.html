@@ -5,44 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title></title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>
-        Check if your Birthday is Lucky
-    </h1>
+    
 
-    <table class="table" >
-
-        <tr>
-
-            <th>
-                
-                    <img class = "image" src="images\image-1.png" height="500px" width="600px">
-               
-            </th>
-            <th class="rightside">
-                <form id="form">
-                    <label class="label" for="pickDate">
-                        Select your Birth date:
-                    </label>
-                    <input class="inputStyle" id="pickDate" type="date" />
-                    <label class="label" for="luckyNum">
-                        Enter your Lucky Number:
-                    </label>
-                    <input class="inputStyle" id="luckyNum" min="1" step="1" required type="number" />
-                    <button class="inputStyle" type="submit">check</button>
-                </form>
+    <main>
+        <h1>
+            Check if your Birthday is Lucky
+        </h1>
+    
+    
 
 
-                <div class="output">
+    <form id="form">
+        <p> Privacy Notice: We're not storing your data. It's just a fun website!</p>
+        <br>
+        <label class="label label-date" for="pickDate">
+            Select your Birth date:
+        </label>
+        <br>
+        <input class="inputStyle" id="pickDate" type="date" />
+        <br>
+        
+        <label class="label label-num" for="luckyNum">
+            Enter your Lucky Number:
+        </label>
+        <br>
+        <input class="inputStyle1" id="luckyNum" min="1" step="1" required type="number" />
+        <button class="inputStyle" type="submit">check</button>
+    </form>
 
-                </div>
-            </th>
-        </tr>
-    </table>
+
+    <div class="output">
+
+    </div>
+    
+    </main>
+
+    <footer class="footer">
+        <div class="footer-header">
+            Contact Me: 
+        </div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">LinkedIn</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">GitHub</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Portfolio</a>
+            </li>
+        </ul>
+    </footer>
 
     <script src="script.js"> </script>
 </body>
