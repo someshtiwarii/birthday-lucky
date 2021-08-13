@@ -16,7 +16,7 @@ form.addEventListener('submit', (e)=>{
      sum = sum + Number(letter);  
     }
     const luckyNoJS= Number(luckyNo.value);
-    if(sum%luckyNoJS ===0){
+    if(sum%luckyNoJS === 0){
         outputDiv.innerHTML = pass;
     }
     else{
